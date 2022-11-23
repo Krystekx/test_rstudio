@@ -1,0 +1,38 @@
+---
+title: "instrukcja do polaczenia rstudio i git"
+author: "Krystian"
+date: last-modified
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## Czynności do wykonania przed połączeniem rstudio i git
+
+1.  Załóż konto na github.
+2.  Zainstaluj lub zaktualizuj rstudio.
+3.  Zainstaluj git.
+4.  Przedstaw się git.
+5.  Wygeneruj klucz prywatny w Rstudio do połączenia z github.
+
+## Ad. 1
+
+Wejdź na stronę (insert: https://github.com/) i załż darmowe konto na github ![](images/Zrzut%20ekranu%202022-11-23%20142536.png)
+
+## Ad. 2
+
+Jeśli nie posiadasz programóW r i rstudio to zainstaluj je ze stron:
+
+-   <http://r-project.pl>
+
+-   <http://r-studio.pl>
+
+Jeśli posiadasz rstudio to sprawdź jaką wersję oprogramowania posiadasz
+
+```{r}
+#ta komenda pozwala sprawdzić wersję r
+R.version.string
+```
+
+![Do sprawdzenia wersji r nalezy kliknąć kolejno help -\> about rstudio](pictures/Zrzut%20ekranu%202022-11-23%20143006.png)
